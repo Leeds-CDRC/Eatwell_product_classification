@@ -26,9 +26,9 @@ This version of the Eatwell classification tool takes product information e.g. (
  
 The text mining algorithm uses an iteratively developed lexicon to assign the product of interest to one of the extended Eatwell categories outlined in table 1. The algorithm first matches to N number of categories and then uses rules based on expert domain knowledge to assign the final category. Matching justifications are provided and are modifiable by the user for transparency.  
  
-  E.g. “Eton Mess: Strawberries and Meringue” would match to two categories: Fruit and Vegetables and Discretionary, however as one of the rules is that any product with a Discretionary element is classified as such, therefore the final Eatwell Category assigned would be discretionary.  
+- E.g. “Eton Mess: Strawberries and Meringue” would match to two categories: Fruit and Vegetables and Discretionary, however as one of the rules is that any product with a Discretionary element is classified as such, therefore the final Eatwell Category assigned would be discretionary.  
  
-  E.g. “Garden Salad: Lettuce, Tomato, Cucumber” would match four times to the Fruit and Vegetable Eatwell Category so would be assigned to that category and an indication of high probability of correct classification given.  
+- E.g. “Garden Salad: Lettuce, Tomato, Cucumber” would match four times to the Fruit and Vegetable Eatwell Category so would be assigned to that category and an indication of high probability of correct classification given.  
 
 
 
