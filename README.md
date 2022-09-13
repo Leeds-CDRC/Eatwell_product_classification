@@ -1,6 +1,8 @@
 # Eatwell Classification Tool
 
 [![DOI](https://zenodo.org/badge/516698036.svg)](https://zenodo.org/badge/latestdoi/516698036)
+## Overview:
+This tool classifies food items to food group segments of the UK’s EatWell Guide  ![Eatwell Guide](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/528193/Eatwell_guide_colour.pdf). It is designed to aid automated food group classification for big data sources, such as grocery retailer transaction records.
 
 ## Version 1.0
 
