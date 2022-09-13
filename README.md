@@ -24,6 +24,13 @@ This version of the Eatwell classification tool takes product information e.g. (
 
 [^1]: The user can decide how to handle these composite foods dependent on the research question being asked, later versions will assist in claucalitng fruit and vegetable portions in these food groups.
 
+
+
+[![DOI](https://zenodo.org/badge/516698036.svg)](https://zenodo.org/badge/latestdoi/516698036)
+
+
+[![DOI](https://zenodo.org/badge/516698036.svg)](https://zenodo.org/badge/latestdoi/516698036)
+
 ## How the Algorithm works 
 
  
@@ -41,6 +48,8 @@ Assumptions on the data may need to be modified dependent on end use
 It is recommended that all classifications are validated against nutritional information. We have produced interactive visualisations (see notebook___) to assist in visual validation of the data. 
 Check back regularly for code updates 
 
+
+[![DOI](https://zenodo.org/badge/516698036.svg)](https://zenodo.org/badge/latestdoi/516698036)
 
 ## Upcoming .. version (2.0)
  - An interactive web dashboard is planned for version 2.0 to allow the use of the Eatwell classification tool without programming experience.  
