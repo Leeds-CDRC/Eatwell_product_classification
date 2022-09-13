@@ -16,10 +16,13 @@ This version of the Eatwell classification tool takes product information e.g. (
 |Discretionary Foods |Corresponds to those foods that should be eaten less often and in small amounts (Remaining 3% of foods consumed by weight) |Cakes, Crisps, Biscuits, Chips,| 
 |Alcoholic Beverages | Alcoholic drinks (not included in Eatwell guidance)|Wines, Beers, Spirits |
 |Non-alcoholic Beverages | Non-alcoholic drinks (not included in Eatwell guidance)- user discretion to include as discretionary where appropriate |Squash, Cordial, Juice, Fizzy drinks|
-|Composite foods| Foods that are made up of more than one food group[^1] |Ready meals, Lasagne, Quiche |
-|Toddler and baby food | Toddlers and babbies have differenet diary recommendaitons to the Eatwell Guide therfore are sperated out for ease|Formula, baby purees |
-|Other foods|Food items without a significant nutrtional contribution i.e. flavourings, herbs, spices, |Dried herbs and spices, pepper, salt |
-|Non-food items |Products potentially errouniously included as they are typically purchased alongside a food shop| Kitchen foil, Toothpaste, Homeware|
+|Composite foods| Foods that are made up of foods in more than one category[^1] |Ready meals, Lasagne, Quiche |
+|Toddler and baby food | Toddlers and babies have different diary recommendations to the Eatwell Guide therefore are separated out for ease |Formula, baby purees | 
+|Other foods |Food items without a significant nutritional contribution i.e. flavorings, herbs, spices, |Dried herbs and spices, pepper, salt | 
+|Non-food items |Products potentially erroneously included as they are typically purchased alongside a food shop| Kitchen foil, Toothpaste, Homeware| 
+
+
+[^1]: The user can decide how to handle these composite foods dependent on the research question being asked, later versions will assist in claucalitng fruit and vegetable portions in these food groups.
 
 ## How the Algorithm works 
 
@@ -30,14 +33,14 @@ The text mining algorithm uses an iteratively developed lexicon to assign the pr
  
 - E.g. “Garden Salad: Lettuce, Tomato, Cucumber” would match four times to the Fruit and Vegetable Eatwell Category so would be assigned to that category and an indication of high probability of correct classification given.  
 
-
-
-
-
-##
-
-
+## Algorithm Development 
+Using real world product data, the algorithm has been designed iteratively to capture a wide range of products. To ensure commercial sensitivity brand names are not used to inform classification, however there is the option for users to assign brand items to an Eatwell category to improve business specific classification. The algorithm and underlying database will continue to be updated to further improve product classification.  
+ 
+## Caveats 
+Assumptions on the data may need to be modified dependent on end use 
+It is recommended that all classifications are validated against nutritional information. We have produced interactive visualisations (see notebook___) to assist in visual validation of the data. 
+Check back regularly for code updates 
 
 
 ## Upcoming .. version (2.0)
-Classification of food products based on product name and description to Eatwell categories 
+ - An interactive web dashboard is planned for version 2.0 to allow the use of the Eatwell classification tool without programming experience.  
