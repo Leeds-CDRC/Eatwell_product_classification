@@ -30,3 +30,5 @@ preferred-citation:
   message: "Data provided by the Consumer Data Research Centre (CDRC), an ESRC Data Investment, refs ES/L011840/1; ES/L011891/1"
   institution: "Consumer Data Research Centre"
   database: "Consumer Data Research Centre"
+  publisher:
+    Name: "Consumer Data Research Centre"
