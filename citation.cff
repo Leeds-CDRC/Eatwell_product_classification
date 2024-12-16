@@ -1,34 +1,42 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+title: Eatwell Classification Tool
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
 authors:
-- family-names: "Pontin"
-  given-names: "Francesca"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-title: "Eatwell Classification Tool"
-version: 1.0.0
-doi: 10.5281/zenodo.1234
-date-released: 2022-09-13
-url: "https://github.com/Leeds-CDRC/Eatwell_product_classification"
-keywords: 
-- "eatwell guide"
-- "nutrition" 
-- "supermarket data"
-license:  GPL-3.0 license
-message: "Data provided by the Consumer Data Research Centre (CDRC), an ESRC Data Investment, refs ES/L011840/1; ES/L011891/1"
-publisher: Consumer Data Research Centre
-preferred-citation:
-  authors:
-    - family-names: Pontin
-      given-names: Francesca
-  title: "Eatwell Classification Tool"
-  type: generic  
-  version: 1.0.0
-  doi: 10.5281/zenodo.1234
-  date-released: 2022-09-13
-  url: "https://github.com/Leeds-CDRC/Eatwell_product_classification"
-  license:  GPL-3.0 license
-  message: "Data provided by the Consumer Data Research Centre (CDRC), an ESRC Data Investment, refs ES/L011840/1; ES/L011891/1"
-  institution: "Consumer Data Research Centre"
-  database: "Consumer Data Research Centre"
-  publisher:
-    Name: "Consumer Data Research Centre"
+  - given-names: Francesca
+    family-names: Pontin
+    email: f.l.pontin@leeds.ac.uk
+    affiliation: University of Leeds
+    orcid: 'https://orcid.org/0000-0002-7143-8718'
+  - name: Consumer Data Research Centre
+    city: Leeds
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.7074554
+repository-code: >-
+  https://github.com/Leeds-CDRC/Eatwell_product_classification/tree/main
+abstract: >-
+  This version of the Eatwell classification tool takes
+  product information e.g. (product name, description,
+  shelving categories) and uses the developed text matching
+  algorithms to assign the food product to a segment of the
+  Eatwell Guide. To reflect real-world baskets in addition
+  to the five standard segments defined in the Eatwell guide
+  products can also be classified as an alcoholic beverage,
+  non-alcoholic beverage, discretionary food, composite
+  food, baby/toddler foods, other (e.g. spices and
+  flavouring) or non-food items (i.e. items that may be
+  purchased alongside food items such as kitchen foil, tooth
+  paste etc.).
+keywords:
+  - Eatwell Guide
+  - Diet & Nutrition
+  - Supermarket data
+license: GPL-3.0
+version: '1.0'
+date-released: '2022-09-13'
