@@ -1,13 +1,18 @@
-@misc{HASP_priority_2024,
-  title = {Eatwell Classification Tool},
-  year = {2022},
-  month ={September},
-  publisher = {Consumer Data Research Centre},
-  author = {Pontin, Francesca},
-  version = {1,0}
-  doi = {[https://dx.doi.org/10.20390/ppfi2](https://zenodo.org/badge/latestdoi/516698036)}, 
-  url = {[https://data.cdrc.ac.uk/dataset/priority-places-food-index-version-2](https://github.com/Leeds-CDRC/Eatwell_product_classification?tab=readme-ov-file)},
-  language = {en},
-  keywords = {eatwell guide, nutrition, supermarket data},
-  howpublished ={Data provided by the Consumer Data Research Centre (CDRC), an ESRC Data Investment, refs ES/L011840/1; ES/L011891/1},
-}
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Pontin"
+  given-names: "Francesca"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+title: "Eatwell Classification Tool"
+version: 1.0.0
+doi: 10.5281/zenodo.1234
+date-released: 2022-09-13
+url: "https://github.com/Leeds-CDRC/Eatwell_product_classification"
+keywords: 
+- "eatwell guide"
+- "nutrition" 
+- "supermarket data"
+license:  GPL-3.0 license
+message: "Data provided by the Consumer Data Research Centre (CDRC), an ESRC Data Investment, refs ES/L011840/1; ES/L011891/1"
+publisher: Consumer Data Research Centre
